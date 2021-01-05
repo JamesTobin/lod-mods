@@ -65,7 +65,8 @@ multidimensions.register_dimension("earthlike2",{
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 		{"default:aspen_wood","default:mese","default:aspen_wood",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
-	}
+	},
+	sky = {{r=153, g=255, b=255},"plain",{}},
 })
 
 multidimensions.register_dimension("floatandlike",{
@@ -78,6 +79,7 @@ multidimensions.register_dimension("floatandlike",{
 		{"default:dirt","default:mese","default:dirt",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 	},
+	sky = {{r=0, g=76, b=153},"plain",{}},
 	map={
 		spread={x=30,y=30,z=30},
 		octaves=3,
@@ -122,7 +124,8 @@ multidimensions.register_dimension("savana",{
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 		{"default:acacia","default:mese","default:acacia",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
-	}
+	},
+	sky={{r=153, g=153, b=0},"plain",{}},
 })
 
 multidimensions.register_dimension("cold",{
@@ -140,7 +143,8 @@ multidimensions.register_dimension("cold",{
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 		{"default:aspen_wood","default:mese","default:aspen_wood",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
-	}
+	},
+	sky={{r=204, g=229, b=255},"plain",{}},
 })
 
 multidimensions.register_dimension("desert",{
@@ -174,7 +178,8 @@ multidimensions.register_dimension("hot",{
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 		{"default:torch","default:mese","default:torch",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
-	}
+	},
+	sky={{r=0, g=0, b=0},"plain",{}},
 })
 
 
@@ -215,7 +220,8 @@ multidimensions.register_dimension("flatland",{
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
 		{"default:dirt","default:mese","default:dirt",},
 		{"default:obsidianbrick", "default:steel_ingot", "default:obsidianbrick"},
-	}
+	},
+	sky = {{r=192, g=192, b=192},"plain",{}},
 })
 
 minetest.register_lbm({

@@ -4,7 +4,7 @@
 local S = protector.intllib
 
 -- get protection radius
-local r = tonumber(minetest.settings:get("protector_radius")) or 5
+local r = tonumber(minetest.settings:get("protector_radius")) or 10
 
 -- radius limiter (minetest cannot handle node volume of more than 4096000)
 if r > 22 then r = 22 end

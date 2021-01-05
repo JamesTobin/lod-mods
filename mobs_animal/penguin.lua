@@ -45,7 +45,7 @@ stepheight = 0.6,
 	},
 	fly_in = {"default:water_source", "default:water_flowing"},
 	floats = 0,
-	follow = {"ethereal:fish_raw", "mobs_fish:clownfish", "mobs_fish:tropical"},
+	follow = {"farming:chocolate_dark", "mobs_fish:clownfish", "mobs_fish:tropical"},
 	view_range = 5,
 
 	on_rightclick = function(self, clicker)
